@@ -1,0 +1,7 @@
+[
+  {"id": "pulse", "name": "Pulse (itself)", "url": "http://127.0.0.1:8000/health"},
+  {"id": "github", "name": "GitHub API", "url": "https://api.github.com"},
+  {"id": "pypi", "name": "PyPI", "url": "https://pypi.org"},
+  {"id": "python", "name": "Python.org", "url": "https://www.python.org"},
+  {"id": "kinneret", "name": "Kinneret College", "url": "https://www.kinneret.ac.il"}
+]

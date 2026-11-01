@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pulse · Status</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <h1>💓 Pulse</h1>
+    <p class="sub">Is everything OK right now? · <span id="version">…</span></p>
+  </header>
+
+  <main>
+    <!-- MISSION (Team 3 - Big Screen): fill this summary, e.g. "3 / 4 services up" -->
+    <section id="summary" class="summary"></section>
+
+    <table>
+      <thead><tr><th>Service</th><th>Status</th><th>HTTP</th><th>Latency</th><th>Checked</th></tr></thead>
+      <tbody id="rows"><tr><td colspan="5">Loading…</td></tr></tbody>
+    </table>
+    <button id="refresh">↻ Check now</button>
+  </main>
+
+  <footer>
+    <h2>Built by</h2>
+    <div id="teams" class="teams"></div>
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

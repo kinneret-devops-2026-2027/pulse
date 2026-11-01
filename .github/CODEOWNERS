@@ -1,0 +1,14 @@
+# Who must review changes to which files.
+# Replace ORG with your GitHub organization name and create these teams in the org first.
+# Docs: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# * @ORG/staff
+# /app/main.py      @ORG/team-1
+# /app/storage.py   @ORG/team-1
+# /app/checker.py   @ORG/team-2
+# /app/static/      @ORG/team-3
+# /app/alerts.py    @ORG/team-4
+# /tests/           @ORG/team-5
+# /.github/         @ORG/team-5 @ORG/staff
+# /app/version.py   @ORG/team-6
+# /CHANGELOG.md     @ORG/team-6

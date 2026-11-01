@@ -1,0 +1,21 @@
+:root { --bg:#0d0f16; --card:#151826; --fg:#e9ebf5; --muted:#8e94b0; --line:rgba(255,255,255,.1);
+         --up:#4ade80; --slow:#fbbf24; --down:#fb7185; --unknown:#8e94b0; --accent:#8b93f8; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: system-ui, "Segoe UI", Arial, sans-serif; background:var(--bg); color:var(--fg); }
+header, main, footer { max-width: 900px; margin: 0 auto; padding: 1rem 1.2rem; }
+h1 { margin: .4rem 0 0; font-size: 2.2rem; }
+.sub { color: var(--muted); margin: .2rem 0 0; }
+#version { font-family: ui-monospace, Consolas, monospace; color: var(--accent); }
+table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 12px; overflow: hidden; }
+th, td { text-align: left; padding: .65rem .8rem; border-bottom: 1px solid var(--line); }
+th { color: var(--muted); font-size: .85rem; }
+a { color: var(--fg); }
+button { margin-top: 1rem; background: var(--accent); color: #fff; border: 0; border-radius: 9px; padding: .55rem 1rem; font-weight: 700; cursor: pointer; }
+.summary { font-size: 1.3rem; font-weight: 800; margin: .4rem 0 1rem; min-height: 1.6rem; }
+/* Team 3: badge styles are ready for you */
+.badge { padding: .15rem .6rem; border-radius: 999px; font-weight: 700; font-size: .85rem; color: #111; }
+.badge-up { background: var(--up); } .badge-slow { background: var(--slow); }
+.badge-down { background: var(--down); } .badge-unknown { background: var(--unknown); }
+.teams { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: .7rem; }
+.team { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: .7rem .9rem; display: flex; flex-direction: column; gap: .2rem; }
+.team span { color: var(--muted); font-size: .9rem; }

@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environment - every developer creates their own
+.venv/
+venv/
+
+# Secrets and local config - NEVER commit
+.env
+*.pem
+*.key
+
+# Editors / OS
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
